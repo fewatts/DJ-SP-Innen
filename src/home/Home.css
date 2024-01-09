@@ -1,3 +1,5 @@
+/* parte um */
+
 .info-section {
     text-align: center;
     display: flex;
@@ -23,7 +25,7 @@
     padding: 15px;
     border-radius: 27px;
     border: solid var(--ghostwhite);
-    box-shadow: -10px 10px 0px 0px var(--ghostwhite);
+    box-shadow: -10px 10px 0px 0px var(--black);
     background-color: var(--black);
     color: var(--ghostwhite);
     width: 300px;
@@ -45,6 +47,7 @@
     margin-left: 10px;
     margin-top: 10px;
     color: var(--black);
+    border-color: ghostwhite;
 }
 
 .info-section .butGetCv>a:hover {
@@ -58,11 +61,11 @@
 
 }
 
-
 .text-home{
     max-width: 310px;
     border-radius: 20px;
     margin-bottom: 0px;
+    color: ghostwhite;
     
 }
 
@@ -72,7 +75,6 @@
     margin: auto;
     padding: 4rem;
     box-shadow: 0px 15px 0px 0px rgba(22, 22, 22, 0.726);
-    margin-bottom: 0.4rem;
 }
 
 .main-tittle{
@@ -80,7 +82,7 @@
     font-size: 2.5rem;
 }
 
-/* Parte um */
+/* Parte dois */
 
 .section-two {
     background-color: var(--skyBlue);
@@ -89,6 +91,7 @@
     padding: 2vh;
     position: sticky;
     height: max-content;
+    box-shadow: 0px 15px 0px 0px black;
 }
 
 .audio-set {
@@ -106,7 +109,7 @@
 }
 
 .audios-tittle {
-    margin: 13px 0px 0px 14px;
+    margin: 30px 0px -30px 14px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -119,7 +122,7 @@
     }
 
     .audios-tittle {
-        margin: 15px 0px -30px 160px;
+        margin: 22px 0px -30px 160px;
     }
 
     .audio-genre {
@@ -145,3 +148,18 @@
     }
 }
 
+.carousel-color{
+    background-color: var(--seaBlue);
+}
+
+.tittle-other-sections-1{
+    text-align: left;
+}
+
+.contact{
+    background-color: var(--red);
+}
+
+.setsection{
+    box-shadow: 0px 15px 0px 0px rgba(22, 22, 22, 0.726);
+}
