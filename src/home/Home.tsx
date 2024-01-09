@@ -68,31 +68,56 @@ export function Home() {
             autoPlay={true} />
     );
 
+    const artist = [
+        {
+            name: '𝔖𝔭𝔦𝔫𝔫𝔢ß',
+            genre: 'Detroit Techno',
+            profilePic: 'https://i1.sndcdn.com/avatars-SbO34mERUbdXPgJp-IDGy7Q-t500x500.jpg',
+            soundcloudLink: 'https://soundcloud.com/djspinneb',
+            instagramLink: 'https://www.instagram.com/__spinneb__/'
+        }
+    ];
+
     return (
         <main>
-            <section >
-                <aside>
-                    <h1>Bem-Vindo(a)!</h1>
-                    <p>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor paulista apaixonado em música eletrônica, seu foco é nos gêneros de Detroit Techno, Hypnotic e Dark. Explore seus sets e demos abaixo!</p>
-                </aside>
+            <section className='section-one'>
+                <section className='info-section'>
+                <aside className='text-home'>
+                    <h1 className='main-tittle'>Bem-Vindo(a)!</h1>
+                    <p className='info-text'>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor Paulista apaixonado em música eletrônica, seu foco é nos gêneros de Detroit Techno, Hypnotic e Dark. Explore seus sets e demos e mídias abaixo!</p>
+                </aside>    
+                {artist.map(artist => (
+                    <figure className='info-card'>
+                        <div className='card'>
+                            <img src={artist.profilePic} alt={artist.name} className='profilepic' />
+                            <h2 className='info-tittle-3'>{artist.name}</h2>
+                            <h3><strong>{artist.genre}</strong></h3>
+                            <div className='info-buttons'>
+                                <button className='butGetCv'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
+                                <button className='butGetCv'><a href={artist.instagramLink} target='_blank'>Instagram</a></button>
+                            </div>
+                        </div>  
+                    </figure>
+                ))}
+            </section>
             </section>
             <section>
                 <h3>Para escutar o set ou demo na sequência arraste o player do soundcloud até o final C:</h3>
-                <h4 className='audios-tittle'>Tracks:</h4>
 
+                <h4 className='audios-tittle'>Sets:</h4>
+                {sets.map(set => (
+                    <figure className='audio-set'>
+                        <iframe src={set.link}></iframe>
+                    </figure>
+                ))}
+
+                <h4 className='audios-tittle'>Demos:</h4>
                 {tracks.map(track => (
                     <figure className='audio-set'>
                         <iframe src={track.link}></iframe>
                     </figure>
                 ))}
 
-                <h4 className='audios-tittle'>Sets:</h4>
-
-                {sets.map(set => (
-                    <figure className='audio-set'>
-                        <iframe src={set.link}></iframe>
-                    </figure>
-                ))}
                 <br />
             </section>
             <section>
