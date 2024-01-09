@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    background-color: var(--skyBlue);
+    text-align: center;
+    color: var(--ghostwhite);
+    padding: 2vh;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.logo-footer{
+    height: auto;
+    width: 40px;
+}
+
+footer > p{
+    padding: 5px;
+}

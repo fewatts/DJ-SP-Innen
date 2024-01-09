@@ -1,0 +1,38 @@
+main{
+    padding-top: 60px;
+}
+
+.logo-navbar {
+    flex: 1;
+}
+
+.logo {
+    cursor: pointer;
+    height: 60px;
+}
+
+.navbar {
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 2.5rem;
+    background-color: var(--skyBlue);
+}
+
+#nav-links {
+    cursor: pointer;
+    color: var(--ghostwhite);
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: var(--skyBlue);
+}
