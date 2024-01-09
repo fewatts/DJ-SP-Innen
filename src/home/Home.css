@@ -61,6 +61,10 @@
 
 }
 
+.info-text{
+    text-align: end;
+}
+
 .text-home{
     max-width: 310px;
     border-radius: 20px;

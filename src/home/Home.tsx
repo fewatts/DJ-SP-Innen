@@ -30,7 +30,7 @@ export function Home() {
                 <section className='info-section'>
                     <aside className='text-home'>
                         <h1 className='main-tittle'>Bem-Vindo(a)!</h1>
-                        <p className='info-text'>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor Paulista apaixonado em música eletrônica, seu foco é nos gêneros de Detroit Techno, Hypnotic e Dark. Explore seus sets, demos e mídias abaixo!</p>
+                        <p className='info-text'>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor originário de são paulo. Apaixonado por música eletrônica, começou sua jornada de mixagem com o coletivo de Dj´s TetaSesh onde após tantas GiG´s, teve a oportunidade de tocar em clubs de mogi e são paulo. Agora seu foco está tanto na apresentação quanto produção musical de estilos como detroit techno, hypnotic e dark.</p>
                     </aside>
                     {artist.map(artist => (
                         <figure className='info-card'>
@@ -49,7 +49,7 @@ export function Home() {
             </section>
             <section className='setsection'>
                 <div className='section-two'>
-                    <h3 className='tittle-other-sections-1'>Áudios (Para escutar o próximo set ou demo é só esperar o som tocar até o final):</h3>
+                    <h3 className='tittle-other-sections-1'>Áudios:</h3>
                 </div>
                 <h4 className='audios-tittle'>Sets:</h4>
                 {sets.map(set => (
