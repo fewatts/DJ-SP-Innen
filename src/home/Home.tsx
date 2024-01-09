@@ -71,12 +71,13 @@ export function Home() {
                 <div className='section-two'>
                     <h3 className='tittle-other-sections-1'>Mídias:</h3>
                 </div>
-                <hr />
+                <br />
+                <br />
+                <br />
                 <aside className='section-carosel'>
                     <div className='carrossel-container'>
                         <Carrossel />
                     </div>
-                    <hr />
                 </aside>
             </section>
         </main>

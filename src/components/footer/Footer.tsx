@@ -6,7 +6,7 @@ import gmail from './../../assets/gmail.svg'
 export function Footer() {
     return (
         <footer>
-            <p>© Copyright 𝔖𝔭𝔦𝔫𝔫𝔢ß</p>
+            <p>© Copyright</p>
             <ul className='social-links'>
                     <li>
                         <a href="https://soundcloud.com/djspinneb" target='blank' ><img src={soundcloudIcon} alt="Soundcloud" className='soundcloud' /></a>
