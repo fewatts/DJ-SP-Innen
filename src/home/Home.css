@@ -72,11 +72,76 @@
     margin: auto;
     padding: 4rem;
     box-shadow: 0px 15px 0px 0px rgba(22, 22, 22, 0.726);
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .main-tittle{
     text-align: center;
     font-size: 2.5rem;
+}
+
+/* Parte um */
+
+.section-two {
+    background-color: var(--skyBlue);
+    text-align: center;
+    color: var(--ghostwhite);
+    padding: 2vh;
+    position: sticky;
+    height: max-content;
+}
+
+.audio-set {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 60px 30px 60px 30px;
+}
+
+.audio-set iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: -20px 20px 0px 0px rgba(22, 22, 22, 0.999);
+}
+
+.audios-tittle {
+    margin: 13px 0px 0px 14px;
+}
+
+@media screen and (min-width: 1000px) {
+    .audio-set iframe {
+        max-width: 80%;
+    }
+
+    .audio-set {
+        margin: 50px;
+    }
+
+    .audios-tittle {
+        margin: 15px 0px -30px 160px;
+    }
+
+    .audio-genre {
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .audio-set{
+        margin: 40px 5px 40px 10px;
+    }
+    .audio-set iframe{
+        width: 92%;
+    }
+
+    .audios-tittle {
+        padding-left: 0;
+        text-align: start;
+    }
+
+    .audio-genre {
+        text-align: center;
+    }
 }
 

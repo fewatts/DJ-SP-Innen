@@ -84,7 +84,7 @@ export function Home() {
                 <section className='info-section'>
                 <aside className='text-home'>
                     <h1 className='main-tittle'>Bem-Vindo(a)!</h1>
-                    <p className='info-text'>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor Paulista apaixonado em música eletrônica, seu foco é nos gêneros de Detroit Techno, Hypnotic e Dark. Explore seus sets e demos e mídias abaixo!</p>
+                    <p className='info-text'>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor Paulista apaixonado em música eletrônica, seu foco é nos gêneros de Detroit Techno, Hypnotic e Dark. Explore seus sets, demos e mídias abaixo!</p>
                 </aside>    
                 {artist.map(artist => (
                     <figure className='info-card'>
@@ -102,8 +102,9 @@ export function Home() {
             </section>
             </section>
             <section>
-                <h3>Para escutar o set ou demo na sequência arraste o player do soundcloud até o final C:</h3>
-
+                <div className='section-two'>
+                    <h3 className='tittle-other-sections'>Para escutar o set ou demo na sequência arraste o player do soundcloud até o final C:</h3>
+                </div>
                 <h4 className='audios-tittle'>Sets:</h4>
                 {sets.map(set => (
                     <figure className='audio-set'>
