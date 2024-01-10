@@ -18,7 +18,7 @@
 }
 
 .corosel-tittle{
-    color: var(--black);
+    color: var(--ghostwhite);
     margin-top: 20px;
     text-align: center;
     padding: 10px;
@@ -36,7 +36,7 @@
 
 .alice-carousel__dots {
     margin: 0px 0px 0px;
-    padding: 15px;
+    padding: 50px;
     list-style: none;
     text-align: center;
 }

@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    flex-direction: column;
     background-color: var(--skyBlue);
     text-align: center;
     color: var(--ghostwhite);
@@ -20,7 +21,7 @@ footer > p{
 }
 
 .soundcloud{
-    height: 30px;
+    height: 34px;
 }
 
 .gmail{
@@ -29,7 +30,7 @@ footer > p{
 
 .social-links{
     list-style-type: none;
-    padding: -1px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
