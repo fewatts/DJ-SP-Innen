@@ -62,6 +62,14 @@
     text-align: end;
 }
 
+.genres{
+    color: var(--red);
+}
+
+.genres2{
+    color: var(--green);
+}
+
 .text-home{
     max-width: 310px;
     border-radius: 20px;

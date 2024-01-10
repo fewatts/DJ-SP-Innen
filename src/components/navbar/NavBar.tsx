@@ -9,7 +9,7 @@ export function NavBar() {
                     <img src={logo} alt="logo" className='logo' />
                 </picture>
                 <ul id='nav-links'>
-                    <li>𝔖𝔭𝔦𝔫𝔫𝔢ß</li>
+                    <li><strong>𝔖𝔭𝔦𝔫𝔫𝔢ß</strong></li>
                 </ul>
             </nav>
         </header>
