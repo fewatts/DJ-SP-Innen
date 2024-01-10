@@ -4,11 +4,11 @@ footer {
     background-color: var(--skyBlue);
     text-align: center;
     color: var(--ghostwhite);
-    padding: 2vh;
+    padding: 1vh;
     height: max-content;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 1px;
 }
 
 .logo-footer{

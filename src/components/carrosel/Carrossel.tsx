@@ -1,10 +1,12 @@
 import AliceCarousel from "react-alice-carousel";
 import spinneb from './../../assets/spinneb.jpeg'
-import gig1 from './../../assets/gigs/IMG_6685.jpeg'
+import gig1 from './../../assets/gigs/IMG_2748 (1).jpeg'
 import gig2 from './../../assets/gigs/IMG_6686.jpeg'
 import gig3 from './../../assets/gigs/IMG_6688.jpeg'
-import gig4 from './../../assets/gigs/IMG_6689.jpeg'
+import gig4 from './../../assets/gigs/DSC07679.jpeg'
 import gig5 from './../../assets/gigs/IMG_6691.jpeg'
+import gig6 from './../../assets/gigs/DSC07685.jpeg'
+import gig7 from './../../assets/gigs/DSC07688.jpeg'
 import './Carrossel.css'
 
 const pics = [
@@ -31,6 +33,14 @@ const pics = [
     {
         name: "TetaSesh",
         pic: gig5
+    },
+    {
+        name: "TetaSesh",
+        pic: gig6
+    },
+    {
+        name: "TetaSesh",
+        pic: gig7
     }
 ];
 
