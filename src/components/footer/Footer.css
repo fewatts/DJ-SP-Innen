@@ -21,11 +21,11 @@ footer > p{
 }
 
 .soundcloud{
-    height: 34px;
+    height: 24px;
 }
 
 .gmail{
-    height: 45px;
+    height: 35px;
 }
 
 .social-links{
@@ -34,5 +34,5 @@ footer > p{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }

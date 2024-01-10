@@ -4,7 +4,10 @@ import { Carrossel } from '../components/carrosel/Carrossel';
 export function Home() {
     const tracks = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1752639249%3Fsecret_token%3Ds-tlH9QFPvhdg&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1754617560%3Fsecret_token%3Ds-j0ZyiyWqA0A&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        },
+        {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1754617413%3Fsecret_token%3Ds-JQtMYbDq6Cx&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }
     ]
 
@@ -58,17 +61,17 @@ export function Home() {
                     <h3 className='tittle-other-sections-1'>Áudios:</h3>
                 </div>
 
-                <h4 className='audios-tittle'>Demos:</h4>
-                {tracks.map(track => (
-                    <figure className='audio-set'>
-                        <iframe src={track.link}></iframe>
-                    </figure>
-                ))}
-
                 <h4 className='audios-tittle'>Sets:</h4>
                 {sets.map(set => (
                     <figure className='audio-set'>
                         <iframe src={set.link}></iframe>
+                    </figure>
+                ))}
+
+                <h4 className='audios-tittle'>Demos:</h4>
+                {tracks.map(track => (
+                    <figure className='audio-set'>
+                        <iframe src={track.link}></iframe>
                     </figure>
                 ))}
 
@@ -90,4 +93,3 @@ export function Home() {
         </main>
     );
 }
-
