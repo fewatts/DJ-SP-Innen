@@ -25,7 +25,7 @@ export function Home() {
 
     const artist = [
         {
-            name: '𝔖𝔭𝔦𝔫𝔫𝔢ß',
+            name: 'Spinnenn',
             genre: 'Detroit Techno',
             profilePic: 'https://i1.sndcdn.com/avatars-SbO34mERUbdXPgJp-IDGy7Q-t500x500.jpg',
             soundcloudLink: 'https://soundcloud.com/djspinneb',
@@ -37,10 +37,6 @@ export function Home() {
         <main>
             <section className='section-one'>
                 <section className='info-section'>
-                    <aside className='text-home'>
-                        <h1 className='main-tittle'>Bem-Vindo(a)!</h1>
-                        <p className='info-text'>𝔖𝔭𝔦𝔫𝔫𝔢ß é um DJ e produtor originário de são paulo. Apaixonado por música eletrônica, começou sua jornada de mixagem com o coletivo de Dj´s TetaSesh onde após tantas Seshs, teve a oportunidade de tocar em clubs de mogi das cruzes e são paulo. Agora seu foco está tanto na apresentação quanto produção musical de estilos como <p className='genres'>detroit techno, hypnotic e dark.</p></p>
-                    </aside>
                     {artist.map(artist => (
                         <figure className='info-card'>
                             <div className='card'>
