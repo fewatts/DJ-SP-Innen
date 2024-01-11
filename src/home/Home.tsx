@@ -1,4 +1,5 @@
 import './Home.css';
+import spinnen2 from './../assets/Spinnen-2.jpeg'
 import { Carrossel } from '../components/carrosel/Carrossel';
 
 export function Home() {
@@ -23,11 +24,11 @@ export function Home() {
         }
     ]
 
-    const artist = [
+    const artists = [
         {
             name: 'Spinnenn',
             genre: 'Detroit Techno',
-            profilePic: 'https://i1.sndcdn.com/avatars-SbO34mERUbdXPgJp-IDGy7Q-t500x500.jpg',
+            profilePic: spinnen2,
             soundcloudLink: 'https://soundcloud.com/djspinneb',
             instagramLink: 'https://www.instagram.com/__spinneb__/'
         }
@@ -37,7 +38,7 @@ export function Home() {
         <main>
             <section className='section-one'>
                 <section className='info-section'>
-                    {artist.map(artist => (
+                    {artists.map(artist => (
                         <figure className='info-card'>
                             <div className='card'>
                                 <img src={artist.profilePic} alt={artist.name} className='profilepic' />

@@ -1,5 +1,4 @@
 import AliceCarousel from "react-alice-carousel";
-import spinneb from './../../assets/spinneb.jpeg'
 import gig1 from './../../assets/gigs/IMG_2748 (1).jpeg'
 import gig2 from './../../assets/gigs/IMG_6686.jpeg'
 import gig3 from './../../assets/gigs/IMG_6688.jpeg'
@@ -10,10 +9,6 @@ import gig7 from './../../assets/gigs/DSC07688.jpeg'
 import './Carrossel.css'
 
 const pics = [
-    {
-        name: "𝔖𝔭𝔦𝔫𝔫𝔢ß",
-        pic: spinneb
-    },
     {
         name: "TetaSesh",
         pic: gig1

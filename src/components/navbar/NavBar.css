@@ -20,7 +20,7 @@ main{
     width: 100%;
     align-items: center;
     height: 10vh;
-    padding: 0rem 2.5rem;
+    /* padding: 0rem 2.5rem; */
     background-color: var(--black);
 }
 
