@@ -76,7 +76,7 @@ export function Home() {
             </section>
             <section className='carousel-color'>
                 <div className='section-two'>
-                    <h3 className='tittle-other-sections-1'>Eventos:</h3>
+                    <h3 className='tittle-other-sections-1'>Gigs:</h3>
                 </div>
                 <br />
                 <br />
