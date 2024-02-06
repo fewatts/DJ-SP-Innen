@@ -35,6 +35,7 @@
     border-radius: 50%;
     margin-bottom: 2vh;
     border: solid ghostwhite;
+    box-shadow: -1px -1px 10px 10px #fdfdfd0b;
 }
 
 .info-section .butGetCv {

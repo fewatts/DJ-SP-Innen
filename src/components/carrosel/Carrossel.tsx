@@ -1,11 +1,13 @@
 import AliceCarousel from "react-alice-carousel";
-import gig1 from './../../assets/gigs/IMG_2748 (1).jpeg'
-import gig2 from './../../assets/gigs/IMG_6686.jpeg'
-import gig3 from './../../assets/gigs/IMG_6688.jpeg'
-import gig4 from './../../assets/gigs/DSC07679.jpeg'
-import gig5 from './../../assets/gigs/IMG_6691.jpeg'
-import gig6 from './../../assets/gigs/DSC07685.jpeg'
-import gig7 from './../../assets/gigs/DSC07688.jpeg'
+import gig1 from './../../assets/gigs/1.jpeg';
+import gig2 from './../../assets/gigs/2.jpeg';
+import gig3 from './../../assets/gigs/3.jpeg';
+import gig5 from './../../assets/gigs/5.jpeg';
+import gig6 from './../../assets/gigs/6.jpeg';
+import gig7 from './../../assets/gigs/7.jpeg';
+import gig8 from './../../assets/gigs/8.jpeg';
+import gig9 from './../../assets/gigs/9.jpeg';
+import gig10 from './../../assets/gigs/10.jpeg';
 import './Carrossel.css'
 
 const pics = [
@@ -14,28 +16,36 @@ const pics = [
         pic: gig1
     },
     {
-        name: "DM Tech",
+        name: "TetaSesh",
         pic: gig2
     },
     {
-        name: "DM Tech",
+        name: "HomeSession",
         pic: gig3
     },
     {
-        name: "TetaSesh",
-        pic: gig4
-    },
-    {
-        name: "TetaSesh",
+        name: "DmTech",
         pic: gig5
     },
     {
-        name: "TetaSesh",
+        name: "DmTech",
         pic: gig6
     },
     {
         name: "TetaSesh",
         pic: gig7
+    },
+    {
+        name: "DmTech",
+        pic: gig8
+    },
+    {
+        name: "Select Techno indoor",
+        pic: gig9
+    },
+    {
+        name: "Select Techno indoor",
+        pic: gig10
     }
 ];
 

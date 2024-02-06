@@ -1,10 +1,10 @@
 @import "react-alice-carousel/lib/alice-carousel.css";
 .carosel-img {
-    width: 330px;
+    width: 390px;
     height: auto;
     margin: auto;
     display: block;
-    border: solid #f8f8ff;
+    border: solid black;
     margin-bottom: 10px;
     border-radius: 50px 50px 50px 50px;
     box-shadow: -15px 5px 0px 1px black;
