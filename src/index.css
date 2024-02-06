@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *,
 *::before,
@@ -8,7 +8,7 @@
 
 * {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Bebas Neue', fantasy;
 }
 
 html,

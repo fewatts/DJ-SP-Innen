@@ -1,14 +1,14 @@
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: var(--skyBlue);
     text-align: center;
     color: var(--ghostwhite);
-    padding: 1vh;
+    padding: 2vh;
     height: max-content;
     justify-content: center;
     align-items: center;
-    gap: 1px;
+    gap: 20px;
 }
 
 .logo-footer{
