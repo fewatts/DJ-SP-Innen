@@ -48,7 +48,6 @@ export function Home() {
                         <figure className='info-card'>
                             <div className='card'>
                                 <img src={artist.profilePic} alt={artist.name} className='profilepic' />
-                                <h2 className='info-tittle-3'>{artist.name}</h2>
                                 <h3><strong>{artist.genre}</strong></h3>
                                 <div className='info-buttons'>
                                     <button className='butGetCv'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
@@ -84,6 +83,16 @@ export function Home() {
                         <iframe src={track.link}></iframe>
                     </figure>
                 ))}
+
+                <h4 className='audios-tittle'>Playlists:</h4>
+                <br />
+                <br />
+                <figure className='spotifyPlaylist'>
+                    <iframe src="https://open.spotify.com/embed/playlist/3bvpJz1Bql1de2utkbwMve?utm_source=generator&theme=0" ></iframe>
+                </figure>
+                <figure className='spotifyPlaylist'>
+                    <iframe src="https://open.spotify.com/embed/playlist/5cJSzyscdjah2c7E6dYehZ?utm_source=generator&theme=0"></iframe>
+                </figure>
 
                 <br />
             </section>

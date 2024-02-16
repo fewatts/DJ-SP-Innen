@@ -31,7 +31,7 @@
     height: auto;
 }
 
-.info-section .profilepic{
+.info-section .profilepic {
     border-radius: 50%;
     margin-bottom: 2vh;
     border: solid ghostwhite;
@@ -52,34 +52,22 @@
     color: var(--skyBlue);
 }
 
-@media screen and (min-width: 768px) {
-    .info-section .info-card {
-        margin: 60px;
-    }
-
+.spotifyPlaylist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.info-text{
-    text-align: end;
+.spotifyPlaylist iframe {
+    border: var(--seaBlue);
+    height: 400px;
+    padding: 20px;
+    width: 80%;
 }
 
-.genres{
-    color: var(--red);
-}
 
-.genres2{
-    color: var(--green);
-}
 
-.text-home{
-    max-width: 310px;
-    border-radius: 20px;
-    margin-bottom: 0px;
-    color: ghostwhite;
-    
-}
-
-.section-one{
+.section-one {
     background-color: var(--black);
     color: var(--ghostwhite);
     margin: auto;
@@ -87,15 +75,9 @@
     box-shadow: 0px 15px 0px 0px rgba(22, 22, 22, 0.726);
 }
 
-.main-tittle{
-    text-align: center;
-    font-size: 2.0rem;
-    margin: 10px;
-}
-
 /* Parte dois */
 
-.setsection{
+.setsection {
     background-color: var(--seaBlue);
 }
 
@@ -144,13 +126,26 @@
     .audio-genre {
         font-weight: bolder;
     }
+
+    .spotifyPlaylist iframe {
+        padding: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .spotifyPlaylist iframe {
+        padding: 20px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 360px) {
-    .audio-set{
+    .audio-set {
         margin: 40px 5px 40px 10px;
     }
-    .audio-set iframe{
+
+    .audio-set iframe {
         width: 92%;
     }
 
@@ -162,20 +157,27 @@
     .audio-genre {
         text-align: center;
     }
+
+    .spotifyPlaylist iframe {
+        border: var(--seaBlue);
+        height: 400px;
+        width: 100%;
+        padding: 10px;
+    }
 }
 
-.carousel-color{
+.carousel-color {
     background-color: var(--seaBlue);
 }
 
-.tittle-other-sections-1{
+.tittle-other-sections-1 {
     text-align: left;
 }
 
-.contact{
+.contact {
     background-color: var(--red);
 }
 
-.setsection{
+.setsection {
     box-shadow: 0px 15px 0px 0px rgba(22, 22, 22, 0.726);
 }
