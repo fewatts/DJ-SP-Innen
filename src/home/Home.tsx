@@ -50,17 +50,17 @@ export function Home() {
                                 <img src={artist.profilePic} alt={artist.name} className='profilepic' />
                                 <h3><strong>{artist.genre}</strong></h3>
                                 <div className='info-buttons'>
-                                    <button className='butGetCv'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
-                                    <button className='butGetCv'><a href={artist.instagramLink} target='_blank'>Instagram</a></button>
+                                    <button className='socialMediaButton'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
+                                    <button className='socialMediaButton'><a href={artist.instagramLink} target='_blank'>Instagram</a></button>
                                 </div>
                             </div>
                         </figure>
                     ))}
                 </section>
             </section>
-            <section className='setsection'>
-                <div className='section-two'>
-                    <h3 className='tittle-other-sections-1'>Áudios:</h3>
+            <section className='section-two'>
+                <div className='audio-section'>
+                    <h3 className='audio-section-tittle'>Áudios:</h3>
                 </div>
 
                 <h4 className='audios-tittle'>Sets:</h4>
@@ -97,8 +97,8 @@ export function Home() {
                 <br />
             </section>
             <section className='carousel-color'>
-                <div className='section-two'>
-                    <h3 className='tittle-other-sections-1'>Gigs:</h3>
+                <div className='audio-section'>
+                    <h3 className='audio-section-tittle'>Gigs:</h3>
                 </div>
                 <br />
                 <br />

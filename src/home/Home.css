@@ -38,7 +38,7 @@
     box-shadow: -1px -1px 10px 10px #fdfdfd0b;
 }
 
-.info-section .butGetCv {
+.info-section .socialMediaButton {
     background-color: var(--black);
     border-radius: 17px;
     margin-left: 10px;
@@ -48,7 +48,7 @@
     border: solid ghostwhite;
 }
 
-.info-section .butGetCv>a:hover {
+.info-section .socialMediaButton>a:hover {
     color: var(--skyBlue);
 }
 
@@ -77,11 +77,11 @@
 
 /* Parte dois */
 
-.setsection {
+.section-two {
     background-color: var(--seaBlue);
 }
 
-.section-two {
+.audio-section {
     background-color: var(--skyBlue);
     text-align: center;
     color: var(--ghostwhite);
@@ -170,7 +170,7 @@
     background-color: var(--seaBlue);
 }
 
-.tittle-other-sections-1 {
+.audio-section-tittle {
     text-align: left;
 }
 
@@ -178,6 +178,6 @@
     background-color: var(--red);
 }
 
-.setsection {
+.section-two {
     box-shadow: 0px 15px 0px 0px rgba(22, 22, 22, 0.726);
 }
