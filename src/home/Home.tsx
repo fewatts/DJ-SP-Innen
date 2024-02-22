@@ -5,7 +5,7 @@ import { Carrossel } from '../components/carrosel/Carrossel';
 export function Home() {
     const ep = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1739384943%3Fsecret_token%3Ds-mkEmm034pOS&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1752138186%3Fsecret_token%3Ds-r1iupkjeYDo&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
         },
         {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1737652347%3Fsecret_token%3Ds-KN29HvU2Zbc&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -18,6 +18,9 @@ export function Home() {
     const tracks = [
         {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1710037950%3Fsecret_token%3Ds-QFiR70hOosM&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        },
+        {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1739384943%3Fsecret_token%3Ds-mkEmm034pOS&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }
     ]
 
