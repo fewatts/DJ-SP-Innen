@@ -3,24 +3,19 @@ import spinnen2 from './../assets/Spinnen-2.jpeg'
 import { Carrossel } from '../components/carrosel/Carrossel';
 
 export function Home() {
-    const ep = [
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1752138186%3Fsecret_token%3Ds-r1iupkjeYDo&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        },
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1737652347%3Fsecret_token%3Ds-KN29HvU2Zbc&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        },
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1737754548%3Fsecret_token%3Ds-dWZBfG8SLVK&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-        }
-    ]
 
     const tracks = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1710037950%3Fsecret_token%3Ds-QFiR70hOosM&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        },
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1752138186%3Fsecret_token%3Ds-r1iupkjeYDo&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        }, 
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1739384943%3Fsecret_token%3Ds-mkEmm034pOS&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1762786371%3Fsecret_token%3Ds-FAGKnWQkDjC&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        }, 
+        {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1764811941%3Fsecret_token%3Ds-7FIb2BEqqYL&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        }, 
+        {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1710037950%3Fsecret_token%3Ds-QFiR70hOosM&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }
     ]
 
@@ -38,8 +33,8 @@ export function Home() {
             name: 'Spinnenn',
             genre: 'Techno',
             profilePic: spinnen2,
-            soundcloudLink: 'https://soundcloud.com/djspinneb',
-            instagramLink: 'https://www.instagram.com/__spinneb__/'
+            soundcloudLink: 'https://soundcloud.com/djspinnenn',
+            instagramLink: 'https://www.instagram.com/_spinnenn_/'
         }
     ];
 
@@ -64,7 +59,7 @@ export function Home() {
             </section>
             <section className='section-two'>
                 <div className='audio-section'>
-                    <h3 className='audio-section-tittle'>Áudios:</h3>
+                    <h3 className='audio-section-tittle'>Audios:</h3>
                 </div>
 
                 <h4 className='audios-tittle'>Sets:</h4>
@@ -74,14 +69,8 @@ export function Home() {
                     </figure>
                 ))}
 
-                <h4 className='audios-tittle'>EP: First</h4>
-                {ep.map(track => (
-                    <figure className='audio-set'>
-                        <iframe src={track.link}></iframe>
-                    </figure>
-                ))}
 
-                <h4 className='audios-tittle'>Other Promos:</h4>
+                <h4 className='audios-tittle'>Promos:</h4>
                 {tracks.map(track => (
                     <figure className='audio-set'>
                         <iframe src={track.link}></iframe>
