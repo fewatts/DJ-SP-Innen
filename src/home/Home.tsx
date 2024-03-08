@@ -6,6 +6,9 @@ export function Home() {
 
     const tracks = [
         {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1767262017%3Fsecret_token%3Ds-BliAWcqYbsA&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        }, 
+        {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1752138186%3Fsecret_token%3Ds-r1iupkjeYDo&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }, 
         {
@@ -20,6 +23,9 @@ export function Home() {
     ]
 
     const sets = [
+        {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1768528077&color=%231692bc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        },
         {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1716744870&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         },
