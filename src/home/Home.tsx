@@ -6,6 +6,9 @@ export function Home() {
 
     const tracks = [
         {
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1775809638%3Fsecret_token%3Ds-nvrZW9lgLgS&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        }, 
+        {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1772793480%3Fsecret_token%3Ds-oNEFwkA3Q98&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }, 
         {
