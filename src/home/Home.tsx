@@ -1,5 +1,4 @@
 import './Home.css';
-import spinnen2 from './../assets/Spinnen-2.jpeg'
 import { Carrossel } from '../components/carrosel/Carrossel';
 
 export function Home() {
@@ -21,7 +20,7 @@ export function Home() {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1762786371%3Fsecret_token%3Ds-FAGKnWQkDjC&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }, 
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1764811941%3Fsecret_token%3Ds-7FIb2BEqqYL&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1778248410%3Fsecret_token%3Ds-QMzyA3x5wtg&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }, 
         {
             link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1710037950%3Fsecret_token%3Ds-QFiR70hOosM&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
@@ -44,7 +43,7 @@ export function Home() {
         {
             name: 'Spinnenn',
             genre: 'Techno',
-            profilePic: spinnen2,
+            profilePic: "https://i1.sndcdn.com/avatars-YpQ0ss88hgBwhLcM-RbOJ5g-t500x500.jpg",
             soundcloudLink: 'https://soundcloud.com/djspinnenn',
             instagramLink: 'https://www.instagram.com/_spinnenn_/'
         }

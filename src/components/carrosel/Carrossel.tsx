@@ -8,6 +8,7 @@ import gig7 from './../../assets/gigs/7.jpeg';
 import gig8 from './../../assets/gigs/8.jpeg';
 import gig9 from './../../assets/gigs/9.jpeg';
 import gig10 from './../../assets/gigs/10.jpeg';
+import gig11 from './../../assets/gigs/panca.png';
 import './Carrossel.css'
 
 const pics = [
@@ -46,6 +47,10 @@ const pics = [
     {
         name: "Select Techno indoor",
         pic: gig10
+    },
+    {
+        name: "Panca",
+        pic: gig11
     }
 ];
 
