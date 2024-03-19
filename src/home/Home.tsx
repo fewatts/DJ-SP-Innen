@@ -5,37 +5,13 @@ export function Home() {
 
     const tracks = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1775809638%3Fsecret_token%3Ds-nvrZW9lgLgS&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        }, 
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1772793480%3Fsecret_token%3Ds-oNEFwkA3Q98&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        }, 
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1767262017%3Fsecret_token%3Ds-BliAWcqYbsA&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        }, 
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1752138186%3Fsecret_token%3Ds-r1iupkjeYDo&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        }, 
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1762786371%3Fsecret_token%3Ds-FAGKnWQkDjC&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        }, 
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1778248410%3Fsecret_token%3Ds-QMzyA3x5wtg&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        }, 
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1710037950%3Fsecret_token%3Ds-QFiR70hOosM&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1788199152%3Fsecret_token%3Ds-mXBsdgPFNd5&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         }
     ]
 
     const sets = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1772924406&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        },
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1716744870&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        },
-        {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1738934964&color=%231692bc&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1682579880&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
         }
     ]
 
