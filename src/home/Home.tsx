@@ -68,12 +68,11 @@ export function Home() {
                 <br />
                 <br />
                 <figure className='spotifyPlaylist'>
-                    <iframe src="https://open.spotify.com/embed/playlist/3bvpJz1Bql1de2utkbwMve?utm_source=generator&theme=0" ></iframe>
-                </figure>
-                <figure className='spotifyPlaylist'>
                     <iframe src="https://open.spotify.com/embed/playlist/5cJSzyscdjah2c7E6dYehZ?utm_source=generator&theme=0"></iframe>
                 </figure>
-
+                <figure className='spotifyPlaylist'>
+                    <iframe src="https://open.spotify.com/embed/playlist/3bvpJz1Bql1de2utkbwMve?utm_source=generator&theme=0" ></iframe>
+                </figure>
                 <br />
             </section>
             <section className='carousel-color'>
