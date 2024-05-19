@@ -17,11 +17,11 @@ export function Home() {
 
     const artists = [
         {
-            name: 'Spinnenn',
+            name: 'SP Innen',
             genre: 'Techno',
             profilePic: "https://i1.sndcdn.com/avatars-YpQ0ss88hgBwhLcM-RbOJ5g-t500x500.jpg",
             soundcloudLink: 'https://soundcloud.com/djspinnenn',
-            instagramLink: 'https://www.instagram.com/_spinnenn_/'
+            instagramLink: 'https://www.instagram.com/sp__innen/'
         }
     ];
 
@@ -37,7 +37,7 @@ export function Home() {
                                 <div className='info-buttons'>
                                     <button className='socialMediaButton'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
                                     <button className='socialMediaButton'><a href={artist.instagramLink} target='_blank'>Instagram</a></button>
-                                    <button className='socialMediaButton'><a href="https://www.instagram.com/spinnenn_master/" target='_blank'>Mastering</a></button>
+                                    <button className='socialMediaButton'><a href="https://www.instagram.com/sp_innen_master/" target='_blank'>Mastering</a></button>
                                 </div>
                             </div>
                         </figure>
