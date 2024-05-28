@@ -36,7 +36,7 @@ export function Home() {
                                 <div className='info-buttons'>
                                     <button className='socialMediaButton'><a href={artist.soundcloudLink} target='_blank'>SoundCloud</a></button>
                                     <button className='socialMediaButton'><a href={artist.instagramLink} target='_blank'>Instagram</a></button>
-                                    <button className='socialMediaButton'><a href="https://www.instagram.com/sp_innen_master/" target='_blank'>Mastering</a></button>
+                                    <button className='socialMediaButton'><a href="https://www.instagram.com/audiologics_studio/" target='_blank'>Mastering</a></button>
                                 </div>
                             </div>
                         </figure>
@@ -73,8 +73,6 @@ export function Home() {
                     <iframe src="https://open.spotify.com/embed/playlist/3bvpJz1Bql1de2utkbwMve?utm_source=generator&theme=0" ></iframe>
                 </figure>
                 <br />
-            </section>
-            <section className='carousel-color'>
             </section>
         </main>
     );
