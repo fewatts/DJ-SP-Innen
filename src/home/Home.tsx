@@ -1,5 +1,4 @@
 import './Home.css';
-import { Carrossel } from '../components/carrosel/Carrossel';
 
 export function Home() {
 
@@ -19,7 +18,7 @@ export function Home() {
         {
             name: 'SP Innen',
             genre: 'Techno',
-            profilePic: "https://i1.sndcdn.com/avatars-YpQ0ss88hgBwhLcM-RbOJ5g-t500x500.jpg",
+            profilePic: "https://i1.sndcdn.com/avatars-1o5TXFfSwAkIytze-rNYw4g-t500x500.jpg",
             soundcloudLink: 'https://soundcloud.com/djspinnenn',
             instagramLink: 'https://www.instagram.com/sp__innen/'
         }
@@ -76,17 +75,6 @@ export function Home() {
                 <br />
             </section>
             <section className='carousel-color'>
-                <div className='audio-section'>
-                    <h3 className='audio-section-tittle'>Gigs:</h3>
-                </div>
-                <br />
-                <br />
-                <br />
-                <aside className='section-carosel'>
-                    <div className='carrossel-container'>
-                        <Carrossel />
-                    </div>
-                </aside>
             </section>
         </main>
     );
