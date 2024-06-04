@@ -97,7 +97,7 @@
 }
 
 .audio-set iframe {
-    width: 70%;
+    width: 800%;
     height: 500px;
     border-radius: 12px;
     box-shadow: -20px 20px 0px 0px rgba(22, 22, 22, 0.999);
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 1000px) {
     .audio-set iframe {
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .audio-set {
@@ -146,7 +146,7 @@
     }
 
     .audio-set iframe {
-        width: 92%;
+        max-width: 92%;
     }
 
     .audios-tittle {
