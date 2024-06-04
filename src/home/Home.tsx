@@ -4,13 +4,13 @@ export function Home() {
 
     const tracks = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1788199152%3Fsecret_token%3Ds-mXBsdgPFNd5&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1788199152%3Fsecret_token%3Ds-mXBsdgPFNd5&color=%23caf726&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
         }
     ]
 
     const sets = [
         {
-            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1682579880&color=%230d7180&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            link: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1682579880&color=%23caf726&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
         }
     ]
 
@@ -67,10 +67,10 @@ export function Home() {
                 <br />
                 <br />
                 <figure className='spotifyPlaylist'>
-                    <iframe src="https://open.spotify.com/embed/playlist/5cJSzyscdjah2c7E6dYehZ?utm_source=generator&theme=0"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/3bvpJz1Bql1de2utkbwMve?utm_source=generator&theme=0" ></iframe>
                 </figure>
                 <figure className='spotifyPlaylist'>
-                    <iframe src="https://open.spotify.com/embed/playlist/3bvpJz1Bql1de2utkbwMve?utm_source=generator&theme=0" ></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/5cJSzyscdjah2c7E6dYehZ?utm_source=generator&theme=0"></iframe>
                 </figure>
                 <br />
             </section>

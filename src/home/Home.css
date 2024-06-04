@@ -97,7 +97,7 @@
 }
 
 .audio-set iframe {
-    width: 100%;
+    width: 70%;
     height: 500px;
     border-radius: 12px;
     box-shadow: -20px 20px 0px 0px rgba(22, 22, 22, 0.999);
@@ -129,7 +129,7 @@
 
     .spotifyPlaylist iframe {
         padding: 20px;
-        width: 80%;
+        width: 70%;
     }
 }
 
