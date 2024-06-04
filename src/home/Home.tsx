@@ -56,7 +56,7 @@ export function Home() {
                 ))}
 
 
-                <h4 className='audios-tittle'>Promos:</h4>
+                <h4 className='audios-tittle'>Demos:</h4>
                 {tracks.map(track => (
                     <figure className='audio-set'>
                         <iframe src={track.link}></iframe>
